@@ -98,6 +98,7 @@ CREATE TABLE `tipo_usuario` (
 LOCK TABLES `tipo_usuario` WRITE;
 /*!40000 ALTER TABLE `tipo_usuario` DISABLE KEYS */;
 INSERT INTO `tipo_usuario` VALUES (1,'vendedor',1),(2,'cajero',1),(3,'administrador',0);
+INSERT INTO `tipo_usuario` VALUES (4,'almacenero',1);
 /*!40000 ALTER TABLE `tipo_usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 
