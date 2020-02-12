@@ -152,3 +152,9 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2020-02-04 12:15:16
+
+
+
+13:26:42	DROP TABLE `proceso_venta1`.`usuario_venta`	Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint fails	0.140 sec
+
+
